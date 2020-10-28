@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: tomato;
+}
+ul{
+    list-style: nome;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: rebeccapurple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*change the link color to #111 (black) on hover*/
+li a:hover{
+    background-color: #111;
+}
